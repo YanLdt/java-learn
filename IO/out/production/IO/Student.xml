@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<students>
+    <student id = "123">
+        <name>pink</name>
+        <age>20</age>
+        <gender>male</gender>
+    </student>
+    <student id = "456">
+        <name>floyd</name>
+        <age>22</age>
+        <gender>female</gender>
+    </student>
+    <student id = "789">
+        <name>queen</name>
+        <age>23</age>
+        <gender>male</gender>
+    </student>
+</students>
