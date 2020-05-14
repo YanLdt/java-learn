@@ -32,6 +32,7 @@ class DynamicProxyHandler implements InvocationHandler{
     public DynamicProxyHandler(Object proxied){
         this.proxied = proxied;
     }
+    @Override
     public Object invoke(Object proxy, Method method, Object[] args)
         throws Throwable{
         System.out.println("**** proxy: " + proxy.getClass() + ", method: " + method + ", args: " + args);

@@ -14,9 +14,9 @@ public class AppendReplace {
         StringBuffer stringBuffer = new StringBuffer();
         Pattern p = Pattern.compile(regex);
         Matcher m = p.matcher(s);
-        while(m.find())
+        while(m.find()) {
             m.appendReplacement(stringBuffer, m.group().toUpperCase());
-
+        }
         m.appendTail(stringBuffer);
         System.out.println(stringBuffer);
     }

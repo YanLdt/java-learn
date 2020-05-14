@@ -33,20 +33,17 @@ public class QuickSort {
             }
             nums[right] = nums[left];
         }
-        //
         nums[left] = temp;
-
-
-
+        //递归
         quickSort(nums, start, left);
         quickSort(nums, left + 1, end);
 
     }
 
-    private static void swap(int[] nums, int i, int j) {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
-    }
+//    private static void swap(int[] nums, int i, int j) {
+//        int temp = nums[i];
+//        nums[i] = nums[j];
+//        nums[j] = temp;
+//    }
 
 }
